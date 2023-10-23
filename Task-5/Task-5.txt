@@ -1,0 +1,27 @@
+Question - Explain the difference between justify-items and justify-self using code examples?
+
+# justify-items and justify-self are both CSS properties used in the context of CSS Grid and Flexbox layouts to control the horizontal alignment of items within a container. but they operate at different levels of the layout.
+
+1). justify-items :-
+
+# Applies to :- Container It works with Grid container or Flex container.
+
+# Description :- This property is used to align all the items within a container along the horizontal axis in the case of a row-based layout or the vertical axis in the case of a column-based layout.
+
+# Values :-
+a). start: Items are aligned to the start of the container.
+b). end: Items are aligned to the end of the container.
+c). center: Items are centered within the container.
+d). stretch: Items stretch to fill the container.
+
+2). justify-self :-
+
+# Applies to: Individual items that is Grid items or Flex items.
+
+# Description: This property allows you to override the alignment of a single item within a container. It lets you control how an individual item should be aligned, regardless of how other items in the same container are aligned.
+
+# Values:
+a). start: The item is aligned to the start of the container.
+b). end: The item is aligned to the end of the container.
+c). center: The item is centered within the container.
+d). stretch: The item stretches to fill the container.

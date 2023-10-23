@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-5</title>
+    <style>
+      #container {
+        width: 50%;
+        aspect-ratio: 2/1;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        margin: 30px auto;
+      }
+
+      #container > div {
+        border: 1px solid black;
+      }
+
+      .blue {
+        background-color: lightblue;
+        width: 50%;
+        justify-self: right;
+      }
+
+      .red {
+        background-color: #ff0000;
+        width: 40%;
+      }
+
+      .green {
+        background-color: lightgreen;
+        width: 60%;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 style="text-align: center;">Example of justify-items and justify-self</h2>
+
+    <div id="container">
+      <div class="red">RED</div>
+      <div class="blue">BLUE</div>
+      <div class="green">GREEN</div>
+      <div class="red">RED</div>
+    </div>
+  </body>
+</html>
